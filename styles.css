@@ -1,0 +1,300 @@
+html {
+  height: 100%;
+}
+
+body{
+  background-image: radial-gradient(circle farthest-corner at center, #3C4B57 0%, #1C262B 100%);
+}
+
+.login{
+  position: relative;
+  height: 5px;
+  width: 4px;
+  background: url("http://backgrounds-free.com/highresolution/l_148.png");
+  border-radius: 10px;
+  margin-top: 15%;
+  border: 5px solid aqua;
+  z-index: 20;
+   }
+
+#form button{
+  width: 100px;
+  height: 38px;
+  margin-top:20px;
+  color: white;
+  background: gray;
+  font-size: 18px;
+  border: 1px solid deepskyblue;
+}
+
+.inputLog{
+  height: 32px;
+  width: 320px;
+  margin-top: 25px;
+  border-radius: 4px;
+  border: 3px solid red;
+  font-size: 20px;
+  text-align: center;
+  background: gray;
+  color: white;
+}
+
+
+#form input:focus, #form input:hover{
+  border: 3px solid aqua;
+}
+
+#news : active{
+     background-color: #4CAF50;
+}
+
+
+#total_amount button{
+height: 30px;
+width: 100px;
+font-size: 20px;
+background: lightgreen;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+#total_amount button:focus, #total_amount button:hover{
+font-size: 22px;
+background: #00FF00;
+border: 1px solid black;
+}
+
+
+
+
+#form button:hover, #form button:focus {
+      background: #0C6125;
+      background: linear-gradient(#393939, #292929);
+      color: aqua;
+      outline: none;
+      transition: 1s all ;
+      cursor: pointer;
+    }
+
+#form button:active {
+      background: #0C6125;
+      background: linear-gradient(#393939, #292929);
+      color: aqua;
+      outline: none;
+      transition: 1s all ;
+      cursor: pointer;
+    }
+
+
+.page2{
+  
+  background: white;
+  margin: 5%;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+  margin-left: 40px;   
+  cursor: pointer;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {
+  float: right;
+  margin-right: 30px;
+  }
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+
+
+
+.loader {
+  position: absolute;
+  top: calc(50% - 275px);
+  left: calc(50% - 225px);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  perspective: 800px;
+  z-index: -10;
+}
+
+.inner {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;  
+}
+
+.inner.one {
+  left: 0%;
+  top: 0%;
+  animation: rotate-one 1s linear infinite;
+  border-bottom: 12px solid green;
+}
+
+.inner.two {
+  right: 0%;
+  top: 0%;
+  animation: rotate-two 1s linear infinite;
+  border-right: 12px solid silver;
+}
+
+.inner.three {
+  right: 0%;
+  bottom: 0%;
+  animation: rotate-three 1s linear infinite;
+  border-top: 12px solid blue;
+}
+
+.inner.four {
+  right: 0%;
+  bottom: 0%;
+  animation: rotate-four 1s linear infinite;
+  border-top: 12px solid yellow;
+}
+
+@keyframes rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+
+
+@keyframes rotate-four {
+  0% {
+    transform: rotateX(50deg) rotateY(-20deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(-20deg) rotateZ(360deg);
+  }
+}
+
+
+
+
+
+
+.food{
+position:relative;
+float: left;
+width: 20%;
+height: 180px;
+margin-left: 20px;
+text-align: center;
+margin-top: 25px;
+}
+
+.imgs{
+width: 100%;
+height: 70%;
+border: 1px solid black;
+border-radius: 10px;
+}
+
+.details{
+margin-top: 0px;
+}
+.prices{
+margin-top: -15px;
+}
+
+.quantities{
+width: 40px;
+}
+
+
+#orders1, #orders6, #orders7, #orders2, #orders5, #orders8, #orders3, #orders4, #orders, #orders12, #orders9, #orders10, #orders11, #orders13, #orders14, #orders15, #orders16, #orders17{
+float: right;
+margin-right: 50px;
+margin-top: 7px;
+}
+
+#total_amount{
+float: right;
+margin-right: 120px;
+text-align: center;
+}
+
+
+#payments{
+float: right;
+}
+
+
+#total_amount input{
+width: 80px;
+}
+
+.computations input{
+  text-align: right;
+}
+
+
+#cash_payments{
+margin-left: 35%;
+width: 30%;
+background: white;
+text-align: center;
+margin-top: 10%;
+}
+
+#cash_payments p{
+margin-top: -12px;
+}
+
+
+.print{
+margin-left: 45%;
+width: 10%;
+}
